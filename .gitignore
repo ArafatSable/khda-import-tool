@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+_scratch/
+.venv/
+venv/
+out/
+*_import_ready.xlsx

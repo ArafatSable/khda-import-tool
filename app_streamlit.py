@@ -33,8 +33,8 @@ from khda_forms import FORMS, UNVERIFIED_NO_WORKFLOW
 APP_DIR = Path(__file__).resolve().parent
 HEDB_PATH = APP_DIR / "HEDB_.xlsx"
 
-st.set_page_config(page_title="CHEDS Import Sheet Builder", page_icon="\U0001F4C4", layout="centered")
-st.title("CHEDS Import Sheet Builder")
+st.set_page_config(page_title="KHDA Import Sheet Builder", page_icon="\U0001F4C4", layout="centered")
+st.title("KHDA Import Sheet Builder")
 st.write("Pick the form and upload the raw Excel export for it.")
 
 if not HEDB_PATH.exists():
